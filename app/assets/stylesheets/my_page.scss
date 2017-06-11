@@ -22,23 +22,56 @@ html, body {
   height: 130px;
 }
 
-.brand_name {
-
-}
-
-
-
-.logo {
-  padding: 3% 0 0 5%;
-  width: 100px;
-}
-
+//  Logo
+  .logo {
+    padding: 2% 0 0 3%;
+    width: 80px;
+      padding: 2.5% 0 0 7%;
+  }
 .logo_img>img {
-  width: 70px;
-  height: 70px;
-  background-color: inherit;
+  width: 80px;
+  height: 80px;
 }
 
+  //  Brand name
+  .brand-name {
+    padding-top: 4%;
+    text-align: left;
+  }
+  .brand {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #a2103c;
+  font-size: 34px;
+}
+.brand:hover {
+  text-decoration: none;
+  color: #5d0832;
+}
+  //  Navigation menu
+
+  .navigation {
+    padding-top: 10%;
+
+    font-size: 22px;
+    float: right;
+  }
+  .navigation>li {
+    display: inline-block;
+    list-style-image: none;
+  }
+  .nav-point{
+    color: #a2103c;
+    display: inline-block;
+
+  }
+  .nav-point:hover {
+    text-decoration: none;
+    color: #5d0832;
+  }
+
+
+//  -----------------------------------Content---------------------------
 .about {
   margin-left: 15%;
   width: 300px;
@@ -47,7 +80,6 @@ html, body {
   border: 2px solid black;
 }
 
-//  -----------------------------------Content---------------------------
 .introduce {
   height: 500px;
   width: 40%;
@@ -68,7 +100,10 @@ html, body {
   background-image: image-url('footer.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  width: 95%;
-  margin-left: 2%;
+  width: 85%;
+  margin-left: 7%;
   height: 130px;
+  margin-top: 1%;
+
+
 }

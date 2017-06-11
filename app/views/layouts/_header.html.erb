@@ -1,14 +1,31 @@
 <div class="header">
-  <div class="row">
-    <div class="logo">
-      <%= link_to image_tag("wolf.png"), my_page_index_path, class: "logo_img" %>
-    </div>
-    <div class="brand">
-      <%= link_to "RubyLupus", main_path, class: "navbar-brand" %>
-    </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-1 logo">
+          <%= link_to image_tag("wolf.png"), my_page_index_path, class: "logo_img " %>
+      </div>
+      <div class="col-md-4 brand-name">
+        <%= link_to "RubyLupus", my_page_index_path, class: "brand " %>
+      </div>
+      <div class="col-md-6">
+        <ul class="navigation">
+          <li class="col-md-4">
+            <%= link_to "Main", main_path, class: "nav-point" %>
+          </li>
+          <li class="col-md-4">
+            <%= link_to "About", "#", class: "nav-point" %>
+          </li>
+          <li class="col-md-4">
+            <%= link_to "Portfolio", "#", class: "nav-point" %>
+          </li>
+        </ul>
 
+      </div>
+    </div>
   </div>
 </div>
+
+
 
 <!-- <nav class=" header">
   <div class="container-fluid">
