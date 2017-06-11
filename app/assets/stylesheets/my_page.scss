@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+// ------------------------------------ Body style-----------------------
 html, body {
   height: 100%;
   background-image: image-url('01.jpg');
@@ -9,14 +11,31 @@ html, body {
   background-repeat: no-repeat;
 }
 
-.navbar {
-  width: 85%;
-  margin-left: 7%;
+
+//  ------------------------------------Header---------------------------
+.header {
+  background-image: image-url('header.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  margin-left: 10%;
+  height: 130px;
+}
+
+.brand_name {
+
+}
+
+
+
+.logo {
+  padding: 3% 0 0 5%;
+  width: 100px;
 }
 
 .logo_img>img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   background-color: inherit;
 }
 
@@ -28,13 +47,28 @@ html, body {
   border: 2px solid black;
 }
 
-
-.jumbotron {
-  width: 95%;
+//  -----------------------------------Content---------------------------
+.introduce {
+  height: 500px;
+  width: 40%;
   margin-top: 10%;
-  margin-left: 2%;
+  margin-left: 20%;
 
   background-image: image-url('list2.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+
+// ------------------------------------ Footer----------------------------
+.footer {
+  background-image: image-url('footer.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 95%;
+  margin-left: 2%;
+  height: 130px;
 }
