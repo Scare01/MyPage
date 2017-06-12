@@ -3,107 +3,199 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-// ------------------------------------ Body style-----------------------
-html, body {
-  height: 100%;
-  background-image: image-url('01.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+// // ------------------------------------ Body style-----------------------
+//
+//  html, body {
+//   height: 100%;
+//   position: relative;
+//
+//   background-image: image-url('01.jpg');
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+// }
+//
+//
+//
+//
+//
+//
+//
+// //  ------------------------------------Header---------------------------
+// .header {
+//   background-image: image-url('header.png');
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+//   width: 80%;
+//   margin-left: 10%;
+//   height: 15%;
+// }
+//
+// //  Logo
+//   .logo {
+//     padding: 2% 0 0 3%;
+//     width: 80px;
+//       padding: 2.5% 0 0 7%;
+//   }
+// .logo_img>img {
+//   width: 80px;
+//   height: 80px;
+// }
+//
+//   //  Brand name
+//   .brand-name {
+//     padding-top: 4%;
+//     text-align: left;
+//   }
+//   .brand {
+//   text-decoration: none;
+//   text-decoration-line: none;
+//   color: #a2103c;
+//   font-size: 34px;
+// }
+// .brand:hover {
+//   text-decoration: none;
+//   color: #5d0832;
+// }
+//   //  Navigation menu
+//
+//   .navigation {
+//     padding-top: 10%;
+//
+//     font-size: 22px;
+//     float: right;
+//   }
+//   .navigation>li {
+//     display: inline-block;
+//     list-style-image: none;
+//   }
+//   .nav-point{
+//     color: #a2103c;
+//     display: inline-block;
+//
+//   }
+//   .nav-point:hover {
+//     text-decoration: none;
+//     color: #5d0832;
+//   }
+//
+//
+// //  -----------------------------------Content---------------------------
+// .content   {
+//   height: 70%;
+// }
+//
+// .about {
+//   margin-left: 15%;
+//   width: 40%;
+//   height: 40%;
+//   background-color: white;
+//   border: 2px solid black;
+// }
+//
+// .introduce {
+//   height: 50%;
+//   width: 40%;
+//   margin-top: 10%;
+//   margin-left: 20%;
+//
+//   background-image: image-url('list2.png');
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+//
+//   padding-left: 15%;
+//   padding-top: 5%;
+// }
+//
+//
+// // ------------------------------------ Footer----------------------------
+// .footer {
+//   position: absolute;
+//   bottom: 0;
+//   background-image: image-url('footer.png');
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+//   width: 85%;
+//   margin-left: 7%;
+//   height: 15%;
+//
+//
+//
+// }
+body {
+
 }
 
-
-//  ------------------------------------Header---------------------------
-.header {
-  background-image: image-url('header.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  width: 80%;
-  margin-left: 10%;
-  height: 130px;
-}
-
-//  Logo
-  .logo {
-    padding: 2% 0 0 3%;
-    width: 80px;
-      padding: 2.5% 0 0 7%;
-  }
-.logo_img>img {
-  width: 80px;
+#header-nav {
   height: 80px;
+  background-color: #459c72;
 }
 
-  //  Brand name
-  .brand-name {
-    padding-top: 4%;
-    text-align: left;
-  }
-  .brand {
+.logo {
+  margin-top: -30px;
+}
+.navbar-header {
+  margin-top: 15px;
+}
+.navbar-brand>img {
+  height: 80px;
+  width: 60px;
+  padding-top: 0;
+}
+
+.brand {
+  margin-top: 10px;
+  padding-top: 10px;
   text-decoration: none;
   text-decoration-line: none;
-  color: #a2103c;
+  color: #ffffff;
   font-size: 34px;
+
 }
 .brand:hover {
   text-decoration: none;
-  color: #5d0832;
-}
-  //  Navigation menu
-
-  .navigation {
-    padding-top: 10%;
-
-    font-size: 22px;
-    float: right;
-  }
-  .navigation>li {
-    display: inline-block;
-    list-style-image: none;
-  }
-  .nav-point{
-    color: #a2103c;
-    display: inline-block;
-
-  }
-  .nav-point:hover {
-    text-decoration: none;
-    color: #5d0832;
-  }
-
-
-//  -----------------------------------Content---------------------------
-.about {
-  margin-left: 15%;
-  width: 300px;
-  height: 300px;
-  background-color: white;
-  border: 2px solid black;
+  color: #e0e0e0;
+    padding-top: 10px;
 }
 
-.introduce {
-  height: 500px;
-  width: 40%;
-  margin-top: 10%;
-  margin-left: 20%;
+#nav-menu>li {
+  // list-style-image: none;
+  // list-style-type: none;
+  font-size: 22px;
+  margin-top: 10px;
+  }
+#nav-menu>li>a {
+  color: #fff;
+}
 
-  background-image: image-url('list2.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-
-  padding-left: 15%;
-  padding-top: 5%;
+#nav-menu>li>a:hover {
+  color: #e0e0e0;
 }
 
 
-// ------------------------------------ Footer----------------------------
 .footer {
-  background-image: image-url('footer.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  width: 85%;
-  margin-left: 7%;
-  height: 130px;
-  margin-top: 1%;
+  height: 40px;
+  background-color: #459c72;
+}
 
+.scocial_link {
+  height: 30px;
+  width: 30px;
+  margin-top: -10px;
+  outline: none;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.scocial_link:hover {
+  text-decoration: none;
+  text-decoration-line: none;
+  outline: none;
+}
+.scocial_link>img {
+  height: 30px;
+  width: 30px;
+}
 
+#copyright {
+  padding-top: 1%;
+  color: #fff;
 }
