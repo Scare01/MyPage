@@ -68,13 +68,18 @@ html, body {
 }
 .photo {
   border: 1px solid red;
-  // height: 80vh;
+  
   width: 50%;
   float: right;
 }
 .photo>img {
-  width: 80%;
-  height: inherit;
+  width: 70%;
+  
+}
+
+.links {
+  border: 1px solid orange;
+  
 }
 
 
