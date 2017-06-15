@@ -15,6 +15,8 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
+
+
 #  add bootstrap-sass
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
