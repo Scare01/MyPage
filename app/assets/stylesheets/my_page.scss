@@ -3,6 +3,8 @@ html, body {
 }
 
 
+
+
 //  -------------------------------- HEADER ------------------------------------
 #header-nav {
   height: 80px;
@@ -55,7 +57,25 @@ html, body {
 //   background-color: #fff4fb;
 //   margin-top: -2%;
 // }
-
+.content {
+  border: 1px solid green;
+  // height: 80vh;
+  width: 50%;
+  float: left;
+}
+.content>h1 {
+  text-align: center;
+}
+.photo {
+  border: 1px solid red;
+  // height: 80vh;
+  width: 50%;
+  float: right;
+}
+.photo>img {
+  width: 80%;
+  height: inherit;
+}
 
 
 #introduce {
