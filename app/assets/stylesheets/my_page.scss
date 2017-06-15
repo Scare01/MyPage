@@ -52,6 +52,7 @@ html, body {
 }
 
 
+
 // -------------------------- CONTENT ----------------------------
 // .container {
 //   height: 88%;
@@ -59,34 +60,33 @@ html, body {
 //   margin-top: -2%;
 // }
 .content {
-  border: 1px solid green;
-  // height: 80vh;
   width: 50%;
   float: left;
 }
-.content>h1 {
-  text-align: center;
-}
+
+
 .photo {
-  border: 1px solid red;
-  
   width: 50%;
   float: right;
 }
 .photo>img {
-  width: 70%;
-  
+  width: 80%;
 }
 
-.links {
-  border: 1px solid orange;
-  
+.links>a {
+ font-size: 26px;
+ margin-top: -1.5%;
+ color: inherit;
+ margin-left: 15px;
+}
+
+.links>a:hover {
+  text-decoration: none;
+  color: #858789;
 }
 
 
-#introduce {
-  text-align: center;
-}
+
 
 //  ------------------------ FOOTER -----------------------------
 
