@@ -79,9 +79,12 @@ html, body {
   width: 80%;
 }
 
+.links>h2 {
+  margin-bottom: 0;
+}
+
 .links>a {
  font-size: 26px;
- margin-top: -1.5%;
  color: inherit;
  margin-left: 15px;
 }
