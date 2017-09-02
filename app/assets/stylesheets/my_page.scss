@@ -1,14 +1,25 @@
 @font-face {
-  font-family: "Lobster";
-  src: url('Lobster-Regular.ttf');
+  font-family: "Josefin Slab";
+  src: url('JosefinSlab-Regular.ttf');
 }
 
 html, body {
   height: 100%;
-  font-family: 'Lobster', sans-serif;
+  a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+  }
+  a {
+    color: #4d767c;
+  }
+  a:hover {
+    color: #0d94a8;
+  }
+
 }
 
-
+#main {
+  font-family: 'Josefin Slab';
+}
 
 
 //  -------------------------------- HEADER ------------------------------------
@@ -30,6 +41,7 @@ html, body {
 }
 
 .brand {
+
   margin-top: 10px;
   padding-top: 10px;
   text-decoration: none;
@@ -70,13 +82,15 @@ html, body {
   border-bottom-right-radius: 6px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-
+  color: #0eb8b3;
 }
 
 
 .photo {
-  width: 50%;
-  float: right;
+  width: 30%;
+  height: 30%;
+  background-color: #0eb8b3;
+  margin-left: 30px;
 }
 .photo>img {
   width: 80%;
