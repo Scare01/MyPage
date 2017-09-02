@@ -1,8 +1,11 @@
-
+@font-face {
+  font-family: "Lobster";
+  src: url('Lobster-Regular.ttf');
+}
 
 html, body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster', sans-serif;
 }
 
 
@@ -11,7 +14,7 @@ html, body {
 //  -------------------------------- HEADER ------------------------------------
 #header-nav {
   height: 80px;
-  background-color: #459c72;
+  background-color: #0eb8b3;
 }
 
 .logo {
@@ -62,7 +65,7 @@ html, body {
 .content {
   width: 50%;
   float: left;
-  background-color: rgb(238, 238, 238);
+  background-color: #dbe0e4;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   border-top-left-radius: 6px;
@@ -94,14 +97,21 @@ html, body {
   color: #858789;
 }
 
+.personal_info {
+  list-style-type: none;
+}
 
+#welcome {
+  background-color: #dbe0e4;
+  color: #0eb8b3;
+}
 
 
 //  ------------------------ FOOTER -----------------------------
 
 .footer {
   height: 40px;
-  background-color: #459c72;
+  background-color: #0eb8b3;
 }
 
 #copyright {
