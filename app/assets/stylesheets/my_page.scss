@@ -19,6 +19,7 @@ html, body {
 
 #main {
   font-family: 'Josefin Slab';
+    height: 100%;
 }
 
 
@@ -71,9 +72,7 @@ html, body {
 
 
 // -------------------------- CONTENT ----------------------------
-.container {
-  height: 100%;
-}
+
 .content {
   width: 50%;
   float: left;
@@ -83,6 +82,7 @@ html, body {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   color: #0eb8b3;
+  font-size: 1.2em;
 }
 
 
@@ -126,6 +126,8 @@ html, body {
 .footer {
   height: 40px;
   background-color: #0eb8b3;
+  margin: 0;
+  padding: 0;
 }
 
 #copyright {
