@@ -9,6 +9,8 @@
 
 #server '23.227.163.42', user: 'admin', roles: %w{app db web}
 
+config.assets.compile = true
+
 
 # role-based syntax
 # ==================
