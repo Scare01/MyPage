@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 resources :my_page
 root :to => "my_page#index"
 
-get "main" => "my_page#main"
+get "index" => "my_page#index"
 get  "about" => "my_page#about"
 get  "portfolio" => "my_page#portfolio"
 
