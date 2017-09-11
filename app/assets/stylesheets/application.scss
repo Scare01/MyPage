@@ -20,5 +20,5 @@
 
  @font-face {
    font-family: "Josefin Slab";
-   src: url('JosefinSlab-Regular.ttf');
+   src: url('<%= asset_path('fonts/JosefinSlab-Regular.ttf') %>');
  }
