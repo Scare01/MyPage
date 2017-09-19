@@ -20,6 +20,8 @@ gem 'jbuilder', '~> 2.5'
 #  add bootstrap-sass
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
+gem 'google-analytics-rails', '1.1.1'
+
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'

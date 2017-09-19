@@ -61,6 +61,7 @@ GEM
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    google-analytics-rails (1.1.1)
     i18n (0.8.6)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
@@ -168,6 +169,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3, >= 3.3.7)
   byebug
   coffee-rails (~> 4.2)
+  google-analytics-rails (= 1.1.1)
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
