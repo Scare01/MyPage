@@ -85,5 +85,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   GA.tracker = "UA-106577665-1"
-  GA.script_source = :dounleclick
+  
 end
